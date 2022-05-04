@@ -253,6 +253,7 @@ if __name__ == '__main__':
     # loss_function = torch.nn.BCELoss()
     # loss_function = BCEDicedLoss(bce_weight=0.5, dice_weight=0.5)  # 0.1
     # loss_function = BCEDicedLossV2(bce_weight=0.5, dice_weight=0.5)  # 0.1
+
     loss_function = BCETverskyLoss(bce_weight=0.5, tversky_weight=0.5)
     loss_function = loss_function.cuda(device_id)
     parameters = model.parameters()
