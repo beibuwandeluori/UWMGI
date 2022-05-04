@@ -1,0 +1,13 @@
+tqdm
+opencv-python
+pandas
+torch
+torchvision
+torchsummary
+timm
+thop
+sklearn
+efficientnet_pytorch
+ml_collections
+thop
+faker
